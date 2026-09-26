@@ -1,0 +1,73 @@
+# ==========================================
+# macOS systémové soubory
+# ==========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon\r\r
+._*
+.Spotlight-V100
+.Trashes
+
+# ==========================================
+# Windows systémové soubory
+# ==========================================
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# ==========================================
+# C++ kompilace a binárky (obecné)
+# ==========================================
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.dylib
+*.dll
+*.so
+*.a
+*.lib
+
+# Sestavení / Build složky
+build/
+bin/
+out/
+
+# ==========================================
+# Xcode & Apple vývoj
+# ==========================================
+# Uživatelská nastavení Xcode (každý uživatel má svá)
+xcuserdata/
+*.xcuserdatad
+
+# Sestavení z Xcode
+build/
+DerivedData/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+# ==========================================
+# Editory a IDE (VS Code, CLion, Visual Studio)
+# ==========================================
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.vs/
+.idea/
+*.suo
+*.user
+*.useroslog
+*.sln.docstates
